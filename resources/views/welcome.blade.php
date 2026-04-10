@@ -4,8 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>tes baru lagi boss</title>
-        <title>Ahhay</title>
+        <title>{{ config('app.name', 'Prakasa Ant Lord') }}</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
