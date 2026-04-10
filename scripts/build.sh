@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+cp .env.example .env
+
+php artisan key:generate | echo "key:generate already exist"
+
 php artisan optimize:clear | echo "No cache need to clear"
 
 # install dependencies
