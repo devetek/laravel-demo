@@ -1,7 +1,6 @@
 #!/bin/bash
 
-
-cp .env.example .env
+# We don't care about exposed environment variables, it just demo repository!
 
 php artisan key:generate | echo "key:generate already exist"
 
